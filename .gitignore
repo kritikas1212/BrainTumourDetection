@@ -65,6 +65,10 @@ htmlcov/
 prediction_*.png
 confusion_matrix.png
 
+# Documentation (internal only)
+CHANGES_SUMMARY.md
+DASHBOARD_GUIDE.md
+
 # Logs
 *.log
 
