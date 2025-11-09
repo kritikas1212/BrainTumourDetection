@@ -31,10 +31,12 @@ env.bak/
 venv.bak/
 
 # PyTorch Models (large files)
-*.pth
-*.pt
-*.ckpt
-*.h5
+# Note: Model files are needed for deployment, so they are tracked in git
+# Uncomment the following lines if you don't want to commit model files:
+# *.pth
+# *.pt
+# *.ckpt
+# *.h5
 
 # Jupyter Notebook
 .ipynb_checkpoints
